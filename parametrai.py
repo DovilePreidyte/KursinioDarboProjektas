@@ -1,6 +1,6 @@
 # Input file name for hmm profile that will be made into alignments
 
-input_file = "nifBall.fasta"
+input_file = "input.fasta"
 
 # Software to use for the alignment: clustalw or muscle
 
@@ -8,11 +8,11 @@ type = "muscle"
 
 # Output file name for the alignment file
 
-output_file  = "algm.aln"
+output_file  = "alignment.aln"
 
 # Name of fully made hmm file
 
-hmm_file = 'nifbam.hmm'
+hmm_file = 'gene.hmm'
 
 # Name of genome database that will be made into protein database
 
